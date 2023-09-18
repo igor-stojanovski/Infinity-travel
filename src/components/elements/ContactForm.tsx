@@ -13,16 +13,16 @@ const ContactForm: React.FC<Props> = ({ airplaneTicketsFormData }) => {
   const [lastNameInput, setLastName] = useState("");
   const [messageInput, setMessage] = useState("");
 
-  function handleNameInput(event: React.ChangeEvent) {
-    setFirstNameInput(event.currentTarget.value);
+  function handleNameInput(event: React.ChangeEvent<any>) {
+    setFirstNameInput(event.currentTarget?.value);
   }
 
-  function handleLastNameInput(event: React.ChangeEvent) {
-    setLastName(event.currentTarget.value);
+  function handleLastNameInput(event: React.ChangeEvent<any>) {
+    setLastName(event.currentTarget?.value);
   }
 
-  function handleMessageInput(event: React.ChangeEvent) {
-    setMessage(event.currentTarget.value);
+  function handleMessageInput(event: React.ChangeEvent<any>) {
+    setMessage(event.currentTarget?.value);
   }
 
   const [show, setShow] = useState(false);

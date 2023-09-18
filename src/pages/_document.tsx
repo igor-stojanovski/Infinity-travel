@@ -8,6 +8,7 @@ export default function Document() {
         <Main />
         <NextScript />
         <script
+          async={true}
           src="https://kit.fontawesome.com/fc22ebfc24.js"
           crossOrigin="anonymous"
         ></script>

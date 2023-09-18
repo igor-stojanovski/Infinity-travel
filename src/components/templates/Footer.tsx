@@ -107,11 +107,11 @@ const Footer: React.FC = () => {
   const handleCloseChat = () => setShowChat(false);
   const handleShowChat = () => setShowChat(true);
 
-  function handleNameInput(event: React.ChangeEvent<FormControlElement>) {
+  function handleNameInput(event: React.ChangeEvent<any>) {
     setNameInput(event.currentTarget.value);
   }
 
-  function handleEmailInput(event: React.ChangeEvent<FormControlElement>) {
+  function handleEmailInput(event: React.ChangeEvent<any>) {
     setEmailInput(event.currentTarget.value);
   }
 

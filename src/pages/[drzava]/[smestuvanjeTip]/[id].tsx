@@ -21,6 +21,8 @@ const ApartmentOrHotelDetailsOffer: NextPage<Props> = ({ arrangements }) => {
 
   const arrangement = arrangements[0];
 
+  console.log(arrangements);
+
   return (
     <div>
       <Head>

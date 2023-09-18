@@ -7,7 +7,19 @@ const ContactFormWrapper = () => {
   return (
     <ContactFormWrapperStyle>
       <div className="form">
-        <ContactForm />
+        <ContactForm
+          airplaneTicketsFormData={{
+            bebinja: 1,
+            datumPoaganje: "asd",
+            datumVrakanje: "asd",
+            deca: 1,
+            do: "sk",
+            klasa: "asd",
+            od: "bt",
+            povratenBilet: "asd",
+            vozrasni: 1,
+          }}
+        />
       </div>
       <div className="form-info">
         <FooterInfoWithoutLinksComponent />

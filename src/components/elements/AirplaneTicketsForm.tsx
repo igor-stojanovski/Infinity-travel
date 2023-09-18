@@ -20,9 +20,7 @@ const AirplaneTicketsForm: React.FC<Props> = ({
   const [ticketType, setTicketType] = useState("");
 
   const handleChange = (
-    event: React.ChangeEvent<
-      HTMLInputElement | HTMLSelectElement | FormControlElement
-    >
+    event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | any>
   ) => {
     const { name, value } = event.target;
     setAirplaneTicketsFormData({ ...airplaneTicketsFormData, [name]: value });
