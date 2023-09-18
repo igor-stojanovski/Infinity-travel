@@ -1,0 +1,5 @@
+THE PROBLEM:
+
+Development of a website for a tourist agency that will be functional, where existing and potential clients can explore the complete range of packages, group trips, and everything the agency offers. Most tourist agency websites are overloaded with information and images and have a lengthy user flow, causing users to feel lost and unable to navigate. The creation of this website was a challenge to address all these issues and provide users with an easy and straightforward access to all the information they are interested in.
+
+Изработка на страна на туристичка агенција која ќе биде функционална каде постоечките и потенцијалните клиенти ќе можат да ја разгледуваат комплетната понуда на аранжмани, групни патувања и се што нуди агенцијата. Повеќето страни на туристичките агенции се пренатрупани со информации и слики и долг "user flow" каде што корисникот се чувствува изгубено и не може да се снајде. Изработката на оваа страна беше предизвик за да се решат сите овие проблеми и на корисникот да му овозможат лесен и едноставен пристап до сите информации кои го интересираат.

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ffcc16;
+  --secondary-color: #7a4094;
+  --tertiary-color: #21b0b7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.w80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.w90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-divider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  @media (min-width: 600px) {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+.h32Reg {
+  font-size: 32px;
+}
+
+.h26Bold {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.h26SemiBold {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.h20SemiBold {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs11 {
+  font-size: 11px;
+}
+
+.active-filter-btn {
+  opacity: 0.8 !important;
+  background-color: var(--tertiary-color) !important;
+}
+
+.MuiSlider-thumb {
+  color: #ffcc16;
+}
+
+.MuiSlider-track {
+  color: #21b0b7;
+}
