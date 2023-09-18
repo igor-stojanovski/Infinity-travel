@@ -2,13 +2,13 @@ import CarouselComponent from "@/components/elements/CarouselComponent";
 import ContainerTabButtons from "@/components/elements/ContainerTabButtons";
 import HeroSection from "@/components/elements/HeroSection";
 import SectionTitle from "@/components/elements/SectionTitle";
-import SeeMoreLink from "@/components/elements/SeeMoreLink";
 import ContainerArrangements from "@/components/templates/ContainerArrangements";
 import { getRegionsArray } from "@/helpers/getRegions";
 import { chunkArrangements } from "@/helpers/getSubArrayWithCountriesForCarousel";
 import { Arrangements } from "@/types/data";
 import { GetServerSideProps, NextPage } from "next";
-import React, { useEffect, useState } from "react";
+import Head from "next/head";
+import { useEffect, useState } from "react";
 
 interface Props {
   arrangements: Arrangements[];
@@ -31,6 +31,18 @@ const ExoticTravels: NextPage<Props> = ({
 
   return (
     <>
+      <Head>
+        <title>Егзотични патувања</title>
+        <meta
+          name="description"
+          content="Infinity Travel Agency Macedonia Инфинити Травел Туристичка Агенција Македонија Лето Летување Излети Дестинации Team-Building"
+        />
+        <meta
+          name="keywords"
+          content="Македониски-Туризам Патничко Осигурување Сигурност Групни Патувања Тим-Билдинг Туризам Oдмор Лето Летување Излети Дестинации Плажа Море Tourism Summer Vacation Team-Building"
+        />
+        <link rel="icon" href="/images/logo.jpg" />
+      </Head>
       <HeroSection
         imgSrc="images/banner-exotic.jpg"
         showSearchBarInBanner={true}

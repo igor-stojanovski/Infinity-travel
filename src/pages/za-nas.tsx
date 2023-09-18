@@ -2,10 +2,23 @@ import HeroSection from "@/components/elements/HeroSection";
 import SectionTitle from "@/components/elements/SectionTitle";
 import ContactFormWrapper from "@/components/templates/ContactFormWrapper";
 import styled from "@emotion/styled";
+import Head from "next/head";
 
 const AboutUs = () => {
   return (
     <>
+      <Head>
+        <title>За нас</title>
+        <meta
+          name="description"
+          content="Infinity Travel Agency Macedonia Инфинити Травел Туристичка Агенција Македонија Лето Летување Излети Дестинации Team-Building"
+        />
+        <meta
+          name="keywords"
+          content="Македониски-Туризам Патничко Осигурување Сигурност Групни Патувања Тим-Билдинг Туризам Oдмор Лето Летување Излети Дестинации Плажа Море Tourism Summer Vacation Team-Building"
+        />
+        <link rel="icon" href="/images/logo.jpg" />
+      </Head>
       <HeroSection
         imgSrc="/images/banner-about.jpg"
         showSearchBarInBanner={false}

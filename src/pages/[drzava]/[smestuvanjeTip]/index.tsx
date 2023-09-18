@@ -11,6 +11,7 @@ import { Arrangements } from "@/types/data";
 import styled from "@emotion/styled";
 import Slider from "@mui/material/Slider";
 import { GetServerSideProps, NextPage } from "next";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import {
@@ -62,6 +63,18 @@ const ApartmentOrHotel: NextPage<Props> = ({ arrangements }) => {
 
   return (
     <div>
+       <Head>
+        <title>Дестинации</title>
+        <meta
+          name="description"
+          content="Infinity Travel Agency Macedonia Инфинити Травел Туристичка Агенција Македонија Лето Летување Излети Дестинации Team-Building"
+        />
+        <meta
+          name="keywords"
+          content="Македониски-Туризам Патничко Осигурување Сигурност Групни Патувања Тим-Билдинг Туризам Oдмор Лето Летување Излети Дестинации Плажа Море Tourism Summer Vacation Team-Building"
+        />
+        <link rel="icon" href="/images/logo.jpg" />
+      </Head>
       <HeroSection
         imgSrc="/images/banner-countries.jpg"
         showSearchBarInBanner={false}

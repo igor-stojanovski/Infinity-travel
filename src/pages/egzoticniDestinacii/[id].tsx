@@ -8,6 +8,7 @@ import { WrapperTitlesStyle } from "../[drzava]/[smestuvanjeTip]/[id]";
 import { CarouselComponentStyle } from "@/components/elements/CarouselComponent";
 import { Carousel, Col, Container, Row, Table } from "react-bootstrap";
 import TablePrices from "@/components/elements/TablePrices";
+import Head from "next/head";
 
 interface Props {
   arrangement: Arrangements;
@@ -20,6 +21,18 @@ const ExoticTravelsDetailsOffer: NextPage<Props> = ({ arrangement }) => {
 
   return (
     <div>
+      <Head>
+        <title>Егзотични патувања понуда</title>
+        <meta
+          name="description"
+          content="Infinity Travel Agency Macedonia Инфинити Травел Туристичка Агенција Македонија Лето Летување Излети Дестинации Team-Building"
+        />
+        <meta
+          name="keywords"
+          content="Македониски-Туризам Патничко Осигурување Сигурност Групни Патувања Тим-Билдинг Туризам Oдмор Лето Летување Излети Дестинации Плажа Море Tourism Summer Vacation Team-Building"
+        />
+        <link rel="icon" href="/images/logo.jpg" />
+      </Head>
       <HeroSection
         imgSrc="/images/banner-exotic.jpg"
         showSearchBarInBanner={false}

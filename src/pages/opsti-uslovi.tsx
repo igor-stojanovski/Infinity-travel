@@ -2,11 +2,24 @@ import DescriptionWithTitleComponent from "@/components/elements/DescriptionWith
 import HeroSection from "@/components/elements/HeroSection";
 import SectionTitle from "@/components/elements/SectionTitle";
 import { NextPage } from "next";
+import Head from "next/head";
 import React from "react";
 
 const TermsAndConditions: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Општи услови</title>
+        <meta
+          name="description"
+          content="Infinity Travel Agency Macedonia Инфинити Травел Туристичка Агенција Македонија Лето Летување Излети Дестинации Team-Building"
+        />
+        <meta
+          name="keywords"
+          content="Македониски-Туризам Патничко Осигурување Сигурност Групни Патувања Тим-Билдинг Туризам Oдмор Лето Летување Излети Дестинации Плажа Море Tourism Summer Vacation Team-Building"
+        />
+        <link rel="icon" href="/images/logo.jpg" />
+      </Head>
       <HeroSection
         imgSrc="/images/banner-about.jpg"
         showSearchBarInBanner={true}

@@ -9,6 +9,7 @@ import { getRegionsArray } from "@/helpers/getRegions";
 import { chunkArrangements } from "@/helpers/getSubArrayWithCountriesForCarousel";
 import { Arrangements } from "@/types/data";
 import { GetServerSideProps, NextPage } from "next";
+import Head from "next/head";
 import { useEffect, useState } from "react";
 
 interface Props {
@@ -41,6 +42,18 @@ const ExploreMacedonia: NextPage<Props> = ({
 
   return (
     <>
+      <Head>
+        <title>Истражи ја Македонија</title>
+        <meta
+          name="description"
+          content="Infinity Travel Agency Macedonia Инфинити Травел Туристичка Агенција Македонија Лето Летување Излети Дестинации Team-Building"
+        />
+        <meta
+          name="keywords"
+          content="Македониски-Туризам Патничко Осигурување Сигурност Групни Патувања Тим-Билдинг Туризам Oдмор Лето Летување Излети Дестинации Плажа Море Tourism Summer Vacation Team-Building"
+        />
+        <link rel="icon" href="/images/logo.jpg" />
+      </Head>
       <HeroSection imgSrc="images/banner-mk.jpg" showSearchBarInBanner={true} />
       <div className="w90 section-divider">
         <ContainerTabButtons
