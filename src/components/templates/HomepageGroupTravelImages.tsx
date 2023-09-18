@@ -154,7 +154,7 @@ const HomepageGroupTravelImagesStyle = styled.div`
   .stampIstanbul {
     height: 100px;
     width: 150px;
-    background-image: url(images/stamps/stamp-Istanbul.png);
+    background-image: url(images/stamps/stamp-istanbul.png);
     bottom: -50px;
     left: 5%;
   }
